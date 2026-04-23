@@ -52,7 +52,7 @@ This project solves these challenges using an ESP32-based embedded system integr
 
 
 
-## 🔍 Features
+## Features
 
 - Real-time monitoring  
 - Secure IoT communication  
@@ -85,7 +85,7 @@ This project solves these challenges using an ESP32-based embedded system integr
 
 For complete implementation details, architecture, and business use-case:
 
-👉 https://digitalmonk.biz/cold-storage-monitoring-using-matter-protocol/
+ https://digitalmonk.biz/cold-storage-monitoring-using-matter-protocol/
 
 If you're looking to build similar IoT systems, you can <a href="https://digitalmonk.biz/hire-esp32-developer/">hire esp32 developer</a> for custom embedded and IoT solutions.
 
