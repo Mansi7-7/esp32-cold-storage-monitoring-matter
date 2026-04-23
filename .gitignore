@@ -1,0 +1,28 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+idf.py.log

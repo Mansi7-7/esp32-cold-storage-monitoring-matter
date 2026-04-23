@@ -1,0 +1,45 @@
+# Cold Storage Matter Project - Default SDK Configuration
+# DigitalMonk | https://digitalmonk.biz
+
+# ---------------------------------------------------------
+# Sensor Selection — Uncomment ONE only
+# ---------------------------------------------------------
+CONFIG_SENSOR_DHT22=y
+# CONFIG_SENSOR_SHT31=y
+
+# ---------------------------------------------------------
+# Matter / CHIP Settings
+# ---------------------------------------------------------
+CONFIG_ESP_MATTER_ENABLE_DATA_MODEL=y
+CONFIG_ENABLE_CHIP_SHELL=y
+CONFIG_CHIP_PROJECT_CONFIG="main/CHIPProjectConfig.h"
+
+# Device identification
+CONFIG_DEVICE_VENDOR_ID=0xFFF1
+CONFIG_DEVICE_PRODUCT_ID=0x8001
+CONFIG_DEVICE_TYPE=0x0302          # Temperature sensor device type
+
+# ---------------------------------------------------------
+# Wi-Fi
+# ---------------------------------------------------------
+CONFIG_ESP_WIFI_STATIC_RX_BUFFER_NUM=10
+CONFIG_ESP_WIFI_DYNAMIC_RX_BUFFER_NUM=32
+
+# ---------------------------------------------------------
+# Logging
+# ---------------------------------------------------------
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+CONFIG_LOG_MAXIMUM_LEVEL_DEBUG=y
+
+# ---------------------------------------------------------
+# FreeRTOS
+# ---------------------------------------------------------
+CONFIG_FREERTOS_HZ=1000
+CONFIG_FREERTOS_UNICORE=n
+
+# ---------------------------------------------------------
+# Flash Size
+# ---------------------------------------------------------
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_PARTITION_TABLE_CUSTOM=y
+CONFIG_PARTITION_TABLE_CUSTOM_FILENAME="partitions.csv"
