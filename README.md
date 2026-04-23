@@ -42,7 +42,7 @@ This project solves these challenges using an ESP32-based embedded system integr
 
 
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - ESP32 (Wi-Fi + Bluetooth enabled MCU)  
 - Matter Protocol (IoT standard for interoperability)  
