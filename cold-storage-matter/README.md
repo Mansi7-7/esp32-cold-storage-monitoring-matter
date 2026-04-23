@@ -273,7 +273,7 @@ See [LICENSE](LICENSE) for details.
 
 ## 🏢 About DigitalMonk
 
-**DigitalMonk** is a full-stack IoT and embedded systems development company.
+**DigitalMonk** is a full-stack IoT and embedded systems development company. If you're looking to build similar solutions, you can <a href="https://digitalmonk.biz/hire-esp32-developer/">hire esp32 developer</a> from our expert team.
 
 > *"From firmware to front-end — full-stack IoT capabilities under one roof."*
 
