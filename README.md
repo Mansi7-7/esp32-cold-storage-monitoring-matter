@@ -11,16 +11,6 @@ Cold storage systems require precise environmental control to maintain product q
 This project solves these challenges using an ESP32-based embedded system integrated with the Matter protocol, enabling seamless communication across devices and platforms.
 
 
-
-##  Problem Statement
-
-- No real-time monitoring of temperature & humidity  
-- Manual data logging leading to human errors  
-- Poor interoperability between devices  
-- Lack of remote access and alerts  
-
-
-
 ##  Solution
 
 - ESP32 microcontroller with temperature & humidity sensors  
@@ -39,15 +29,12 @@ This project solves these challenges using an ESP32-based embedded system integr
 - Easy scalability across multiple storage units 
 
 
-
-
-
 ## Technology Stack
 
 - ESP32 (Wi-Fi + Bluetooth enabled MCU)  
 - Matter Protocol (IoT standard for interoperability)  
-- Embedded C / ESP-IDF  
-- IoT Sensors (DHT22 / SHT31)  
+- Embedded C / ESP-IDF  / Arduino IDE
+- IoT Sensors (DS18B20)  / DHT22 / DHT11
 - Mobile & Web Dashboard Integration  
 
 
@@ -75,15 +62,15 @@ This project solves these challenges using an ESP32-based embedded system integr
 
 1. Sensors collect temperature & humidity data  
 2. ESP32 processes and transmits data  
-3. Matter protocol ensures secure communication  
-4. Data is accessible via mobile/web apps  
-5. Alerts trigger when thresholds are exceeded  
+3. BLE / Bluetooth / Matter  protocol ensures secure communication  
+4. Data is accessible via mobile  
+5. Alerts Fans when thresholds are exceeded  
 
 
 
 ##  Detailed Case Study
 
-For complete implementation details, architecture, and business use-case:
+For complete implementation details, architecture, and business use-case with updated version:
 
  https://digitalmonk.biz/cold-storage-monitoring-using-matter-protocol/
 
